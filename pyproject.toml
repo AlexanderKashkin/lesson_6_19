@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lesson-6-19"
+version = "0.1.0"
+description = ""
+authors = ["Alexander <qaquru.com>"]
+readme = "README.md"
+packages = [{include = "lesson_6_19"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selene = "^1.0.2"
+pytest = "^7.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
